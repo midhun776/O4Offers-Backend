@@ -6,5 +6,6 @@ const SupermarketRouter = require("./routers/supermarketRouter")
 app.use(bodyParser.json());
 
 app.use('/supermarket', SupermarketRouter);
+app.use('/offer', SupermarketRouter);
 
 module.exports = app;
